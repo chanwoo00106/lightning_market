@@ -1,1 +1,17 @@
-{ "extends": ["ultracite"] }
+{
+  "extends": [
+    "ultracite"
+  ],
+  "linter": {
+    "rules": {
+      "performance": {
+        "noBarrelFile": "off"
+      }
+    }
+  },
+  "javascript": {
+    "globals": [
+      "React"
+    ]
+  }
+}
