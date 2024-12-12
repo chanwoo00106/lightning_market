@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "ultracite"
-  ],
+  "extends": ["ultracite"],
   "linter": {
     "rules": {
       "performance": {
@@ -9,12 +7,11 @@
       },
       "style": {
         "useNamingConvention": "off"
-      }
+      },
+      "nursery": { "useSortedClasses": "off" }
     }
   },
   "javascript": {
-    "globals": [
-      "React"
-    ]
+    "globals": ["React"]
   }
 }
